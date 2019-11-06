@@ -1,9 +1,13 @@
-.body {
-  padding-top: 70px;
+body {
+  padding-top: 100px;
+  background-color: #BF9E87;
+    text-align: center;
+}
+.body{
+
+  text-align: center;
 }
 .ml5 {
-  padding-top: 100px;
-  padding-left:20%;
   margin:auto;
   position: relative;
   font-weight: 300;
