@@ -49,6 +49,7 @@ window.onclick = function(e)
        if (id === 'sent')
        {
          var txt = document.getElementById('example').value;
+
          $( "#para" ).append( '<br>' + "- " + txt +" - " +'<br>');
          document.getElementById("example").value = ''; //sets the text box to empty
        }
