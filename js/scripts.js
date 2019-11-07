@@ -1,3 +1,4 @@
+
 anime.timeline({loop: true})
   .add({
     targets: '.ml5 .line',
@@ -38,3 +39,18 @@ anime.timeline({loop: true})
     easing: "easeOutExpo",
     delay: 1000000000
   });
+function welcome()
+{
+          alert("Do you accept our cookies?");
+
+}
+window.onclick = function(e)
+    {   var id =  e.target.id;
+       if (id === 'sent')
+       {
+         var txt = document.getElementById('example').value;
+         $( "#para" ).append( '<br>' + "- " + txt +" - " +'<br>');
+         document.getElementById("example").value = ''; //sets the text box to empty
+       }
+
+    }
