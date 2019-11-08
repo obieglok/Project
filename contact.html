@@ -25,8 +25,8 @@
 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 <ul class="nav navbar-nav">
 <li><a href="#">About</a></li>
-<li class="active"><a href="#">Reviews <span class="sr-only">(current)</span></a></li>
-<li><a href="#">Contact</a></li>
+<li><a href="#">Reviews</a></li>
+<li class="active"><a href="#">Contact <span class="sr-only">(current)</span></a></li>
 <li class="dropdown">
   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Cafe's <span class="caret"></span></a>
   <ul class="dropdown-menu">
@@ -56,53 +56,36 @@
 </div><!-- /.navbar-collapse -->
 </div><!-- /.container-fluid -->
 </nav>
-<!-- navbar -->
-    <h1 class="text-centre">~ Reviews ~</h1>
-
-<!-- start of fake journalist reviews -->
-<div id="journalist" class="text-center">
-  <h2><i><b> What are the journalists saying about us?</b></i> </h2>
-  <br>
-  <div class="row">
-    <div class="col-sm-4">
-      <img class="img-circle" src="images/person.jpg">
-      <blockquote>
-        <p>Best Cafe Website I have seen in ages! Absolutely Reccommend it!
-        </p>
-        <small> CEO Independant </small>
-      </blockquote>
-    </div>
-    <div class="col-sm-4">
-      <img class="img-circle" src="images/person.jpg">
-      <blockquote>
-        <p> Best Reccommendations! Must read if you're in Dublin!  </p>
-        <small> CEO The Sun </small>
-      </blockquote>
-    </div>
-    <div class="col-sm-4">
-      <img class="img-circle" src="images/person.jpg">
-      <blockquote>
-        <p> Really good read, the interactive map is awesome</p>
-        <small> Trinity </small>
-      </blockquote>
-    </div>
-  </div>
+<!-- navbar ends-->
+    <h1 class="text-centre">~ Contact Us! ~</h1>
+<!-- start of contact form-->
+<div class="container">
+ <div class="row">
+   <div class="column">
+     <br>
+     <img src=images/coffee.jpg style="width:100%">
+   </div>
+   <div class="column">
+     <form action="/action_page.php">
+       <label for="fname">First Name</label>
+       <input type="text" id="fname" name="firstname" placeholder="Your name">
+       <label for="email">Email</label>
+       <input type="text" id="email" name="email" placeholder="Your email">
+       <label for="country">Country</label>
+       <select id="country" name="country">
+         <option value="australia">Australia</option>
+         <option value="canada">Canada</option>
+         <option value="usa">USA</option>
+       </select>
+       <label for="subject">Subject</label>
+       <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+       <input type="submit" value="Submit">
+     </form>
+   </div>
+ </div>
 </div>
 
-<!-- end of fake reviews-->
-<!-- type box + comments -->
-<div class="info">
-  <label for="examplee">Do you like our page?
-  </label>
-  <input id="login" type="text" name="Ntext" size="20" placeholder="Your name">
-  <input id="example" type="text" name="Ntext" size="50" placeholder="Your comment">
-  <input id="sent" type="submit"
-         value="Send">
-
-</div>
-<p id="para">
-</p>
-<!-- finished with the type box and comments-->
+<!-- end of contact form -->
     </body>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
