@@ -1,8 +1,11 @@
 body {
-  padding-top: 80px;
+  padding-top: 60px;
   background-color: #BF9E87;
     text-align: center;
-
+}
+h1{
+  font-family: 'Atma';font-size: 50px;
+}
 }
 .body{
 

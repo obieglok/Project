@@ -48,10 +48,14 @@ window.onclick = function(e)
     {   var id =  e.target.id;
        if (id === 'sent')
        {
+         var login=document.getElementById('login').value;
          var txt = document.getElementById('example').value;
 
-         $( "#para" ).append( '<br>' + "- " + txt +" - " +'<br>');
+
+         $( "#para" ).append( '<br>' + "- " +login +" said : " + txt +" - " +'<br>');
          document.getElementById("example").value = ''; //sets the text box to empty
+         document.getElementById("login").value = ''; //sets the text box to empty
+         window.scrollTo(0,document.body.scrollHeight);
        }
 
     }
