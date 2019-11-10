@@ -50,12 +50,19 @@ window.onclick = function(e)
        {
          var login=document.getElementById('login').value;
          var txt = document.getElementById('example').value;
-
-
          $( "#para" ).append( '<br>' + "- " +login +" said : " + txt +" - " +'<br>');
          document.getElementById("example").value = ''; //sets the text box to empty
          document.getElementById("login").value = ''; //sets the text box to empty
          window.scrollTo(0,document.body.scrollHeight);
        }
-
+       else if(id === 'contactsent' )
+       {
+         var name=document.getElementById('fname').value;
+         document.getElementById("para").innerHTML = "";
+          $( "#para" ).append( '<br>' + "Thank you " +name +" for contacting us! " + '<br>');
+         document.getElementById("fname").value="";
+         document.getElementById("email").value="";
+         document.getElementById("subject").value="";
+         window.scrollTo(0,document.body.scrollHeight);
+       }
     }
