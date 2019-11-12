@@ -7,6 +7,8 @@
       <script src="http://code.jquery.com/jquery-3.4.1.min.js"></script>
   <script src='js/bootstrap.js'></script>
     </head>
+
+    <body>
       <nav class="navbar navbar-inverse navbar-fixed-top">
 <div class="container">
 <!-- Brand and toggle get grouped for better mobile display -->
@@ -17,14 +19,15 @@
 <span class="icon-bar"></span>
 <span class="icon-bar"></span>
 </button>
-<a class="navbar-brand" href="#">Java & Coffee</a>
+<a class="navbar-brand" href="index.html">Java & Coffee</a>
 </div>
 <!-- navbar start -->
 <!-- Collect the nav links, forms, and other content for toggling -->
 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 <ul class="nav navbar-nav">
-<li class="active"><a href="#">About <span class="sr-only">(current)</span></a></li>
-<li><a href="#">Reviews</a></li>
+<li><a href="#">About</a></li>
+<li><a href="reviews.html">Reviews</a></li>
+<li><a href="contact.html">Contact</a></li>
 <li class="dropdown">
   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Cafe's <span class="caret"></span></a>
   <ul class="dropdown-menu">
@@ -38,16 +41,14 @@
     <li><a href="#">Kaph</a></li>
     <li><a href="#">The Bakehouse</a></li>
     <li><a href="#">Queen of Tarts</a></li>
-
-
   </ul>
 </li>
 </ul>
 <form class="navbar-form navbar-right">
 <div class="form-group">
-  <input type="text" class="form-control" placeholder="Search">
+  <input type="textt" class="form-control" placeholder="Search">
 </div>
-<button type="submit" class="btn btn-default">Submit</button>
+<button type="submitt" class="btn btn-default">Submit</button>
 </form>
 </li>
 </ul>
@@ -65,7 +66,53 @@
     <span class="line line2"></span>
   </span>
 </h1>
+
 <!-- end of header -->
+<!-- cookies pop up -->
+  <script> alert("You can only proceed if you accept our cookies")</script>
+<!--interactive map -->
+    <div id="interactiveMap">
+      <div class="row">
+        <div class="col-sm-3">
+            <br>
+            <br>
+            <button onclick="document.getElementById('map').src='mapImages/Beanhive.png' "class='btn btn-lg' >Beanhive</button>
+            <br>
+            <br>
+            <button onclick="document.getElementById('map').src='mapImages/ShoeLaneCoffee.png'" class='btn btn-lg btn-twitter' >Shoe Lane Coffee</button>
+            <br>
+            <br>
+            <button onclick="document.getElementById('map').src='mapImages/DegreeCoffeeRoasters.png' " class='btn btn-lg btn-twitter'>9th Degree Coffee roasters</button>
+            <br>
+            <br>
+            <button onclick="document.getElementById('map').src='mapImages/ClementPekoe.png'" class='btn btn-lg btn-twitter'>Clement Pekoe</button>
+            <br>
+            <br>
+            <button onclick="document.getElementById('map').src='mapImages/ArtOfCoffee.png'" class='btn btn-lg btn-twitter'>ArtOfCoffee</button>
+
+    </div>
+    <div class="col-sm-6">
+      <br>
+      <img id="map" src="mapImages/0Plain.png" width =80% height=70%>
+    </div>
+    <div class="col-sm-3">
+      <br>
+      <br>
+      <button onclick="document.getElementById('map').src='mapImages/TheAtriumLounge.png'" class='btn btn-lg btn-twitter'>The Atrium Lounge</button>
+      <br>
+      <br>
+      <button onclick="document.getElementById('map').src='mapImages/Chewbrew.png'" class='btn btn-lg btn-twitter'>Chewbrew</button>
+      <br>
+      <br>
+      <button onclick="document.getElementById('map').src='mapImages/Kaph.png'" class='btn btn-lg btn-twitter'>Kaph</button>
+      <br>
+      <br>
+      <button onclick="document.getElementById('map').src='mapImages/TheBakehouse.png'" class='btn btn-lg btn-twitter'>The Bakehouse</button>
+      <br>
+      <br>
+      <button onclick="document.getElementById('map').src='mapImages/QueenOfTarts.png'" class='btn btn-lg btn-twitter'>Queen of Tarts</button>
+
+    </div>
     </body>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
