@@ -1,6 +1,7 @@
 <!DOCTYPE>
   <html>
     <head>
+      <title> Java & Coffee </title>
       <link href="bootstrap-3.3.7-dist/css/bootstrap.css" rel="stylesheet">
       <link href="css/stylesheet.css" rel="stylesheet">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -25,7 +26,7 @@
 <!-- Collect the nav links, forms, and other content for toggling -->
 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 <ul class="nav navbar-nav">
-<li><a href="#">About</a></li>
+<li><a href="page2.html">About</a></li>
 <li><a href="reviews.html">Reviews</a></li>
 <li><a href="contact.html">Contact</a></li>
 <li class="dropdown">
@@ -57,6 +58,7 @@
 </nav>
 <!-- navbar -->
  <!-- Start of header -->
+   <div class="container" class="center">
  <h1 class="ml5" class="text-center">
   <span class="text-wrapper">
     <span class="line line1"></span>
@@ -66,54 +68,58 @@
     <span class="line line2"></span>
   </span>
 </h1>
-
 <!-- end of header -->
 <!-- cookies pop up -->
   <script> alert("You can only proceed if you accept our cookies")</script>
 <!--interactive map -->
     <div id="interactiveMap">
       <div class="row">
-        <div class="col-sm-3">
+        <div class="col-sm-3" class="center">
             <br>
             <br>
             <button onclick="document.getElementById('map').src='mapImages/Beanhive.png' "class='btn btn-lg' >Beanhive</button>
             <br>
             <br>
-            <button onclick="document.getElementById('map').src='mapImages/ShoeLaneCoffee.png'" class='btn btn-lg btn-twitter' >Shoe Lane Coffee</button>
+            <button onclick="document.getElementById('map').src='mapImages/ShoeLaneCoffee.png'" class='btn btn-lg' >Shoe Lane Coffee</button>
             <br>
             <br>
-            <button onclick="document.getElementById('map').src='mapImages/DegreeCoffeeRoasters.png' " class='btn btn-lg btn-twitter'>9th Degree Coffee roasters</button>
+            <button onclick="document.getElementById('map').src='mapImages/DegreeCoffeeRoasters.png' " class='btn btn-lg'>9th Degree Coffee</button>
             <br>
             <br>
-            <button onclick="document.getElementById('map').src='mapImages/ClementPekoe.png'" class='btn btn-lg btn-twitter'>Clement Pekoe</button>
+            <button onclick="document.getElementById('map').src='mapImages/ClementPekoe.png'" class='btn btn-lg'>Clement Pekoe</button>
             <br>
             <br>
-            <button onclick="document.getElementById('map').src='mapImages/ArtOfCoffee.png'" class='btn btn-lg btn-twitter'>ArtOfCoffee</button>
+            <button onclick="document.getElementById('map').src='mapImages/ArtOfCoffee.png'" class='btn btn-lg'>ArtOfCoffee</button>
 
     </div>
-    <div class="col-sm-6">
+    <div class="col-sm-6" class="center">
       <br>
-      <img id="map" src="mapImages/0Plain.png" width =80% height=70% class="center">
+      <img id="map" src="mapImages/0Plain.png" class="center">
     </div>
-    <div class="col-sm-3">
+    <div class="col-sm-3" class="center">
       <br>
       <br>
-      <button onclick="document.getElementById('map').src='mapImages/TheAtriumLounge.png'" class='btn btn-lg btn-twitter'>The Atrium Lounge</button>
+      <button onclick="document.getElementById('map').src='mapImages/TheAtriumLounge.png'" class='btn btn-lg'>The Atrium Lounge</button>
       <br>
       <br>
-      <button onclick="document.getElementById('map').src='mapImages/Chewbrew.png'" class='btn btn-lg btn-twitter'>Chewbrew</button>
+      <button onclick="document.getElementById('map').src='mapImages/Chewbrew.png'" class='btn btn-lg'>Chewbrew</button>
       <br>
       <br>
-      <button onclick="document.getElementById('map').src='mapImages/Kaph.png'" class='btn btn-lg btn-twitter'>Kaph</button>
+      <button onclick="document.getElementById('map').src='mapImages/Kaph.png'" class='btn btn-lg'>Kaph</button>
       <br>
       <br>
-      <button onclick="document.getElementById('map').src='mapImages/TheBakehouse.png'" class='btn btn-lg btn-twitter'>The Bakehouse</button>
+      <button onclick="document.getElementById('map').src='mapImages/TheBakehouse.png'" class='btn btn-lg'>The Bakehouse</button>
       <br>
       <br>
-      <button onclick="document.getElementById('map').src='mapImages/QueenOfTarts.png'" class='btn btn-lg btn-twitter'>Queen of Tarts</button>
+      <button onclick="document.getElementById('map').src='mapImages/QueenOfTarts.png'" class='btn btn-lg'>Queen of Tarts</button>
 
     </div>
+  </div>
+
     <!-- interactive map ends-->
+
+
+
     </body>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>

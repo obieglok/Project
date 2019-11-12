@@ -1,6 +1,7 @@
 <!DOCTYPE>
   <html>
     <head>
+      <title> Java & Coffee </title>
       <link href="bootstrap-3.3.7-dist/css/bootstrap.css" rel="stylesheet">
       <link href="css/stylesheet.css" rel="stylesheet">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -24,7 +25,7 @@
 <!-- Collect the nav links, forms, and other content for toggling -->
 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 <ul class="nav navbar-nav">
-<li><a href="#">About</a></li>
+<li><a href="page2.html">About</a></li>
 <li class="active"><a href="reviews.html">Reviews <span class="sr-only">(current)</span></a></li>
 <li><a href="contact.html">Contact</a></li>
 <li class="dropdown">
@@ -61,38 +62,36 @@
 
 <!-- start of fake journalist reviews -->
 <div id="journalist" class="text-center">
-  <h2><i><b> What are the journalists saying about us?</b></i> </h2>
+  <h2><i><b> What are the people saying about us?</b></i> </h2>
   <br>
-  <div class="row">
+  <div class="row" id="reviews">
     <div class="col-sm-4">
       <img class="img-circle" src="images/journalist.bmp" width="200" height="200" >
-      <blockquote>
-        <p>Best Cafe Website I have seen in ages! Absolutely Reccommend it!
+      <br>
+        <p>"This is a very impressive website for students with no background in food journalism. The layout is accessible and the website is very informative."
         </p>
-        <small> CEO Independant </small>
-      </blockquote>
+        <small>Food Journalist at the Irish Times </small>
     </div>
     <div class="col-sm-4">
       <img class="img-circle" src="images/owner.jpg" width="200" height="200">
-      <blockquote>
-        <p> Best Reccommendations! Must read if you're in Dublin!  </p>
-        <small> CEO The Sun </small>
-      </blockquote>
+      <br>
+        <p>"I’m delighted my business was chosen to feature on the Java & Coffee website, I’m glad you enjoy our coffee and we hope the team are customers for many years to come."</p>
+        <small> Owner of the Beanhive Cafe </small>
     </div>
     <div class="col-sm-4">
       <img class="img-circle" src="images/student.bmp" width="200" height="200">
-      <blockquote>
-        <p> Really good read, the interactive map is awesome</p>
-        <small> Trinity </small>
-      </blockquote>
+      <br>
+        <p>"This site appeals to the average student. It’s easy to navigate and provides helpful info. I’ve already visited 4 of the recommended locations and look forward to seeing the rest!"</p>
+        <small>Law Student at TCD</small>
     </div>
   </div>
 </div>
-
+<br>
+<br>
 <!-- end of fake reviews-->
 <!-- type box + comments -->
 <div class="info">
-  <label for="examplee">Do you like our page?
+  <label class="textbig" for="examplee">Do you like our page?
   </label>
   <input id="login" type="textt" name="Ntext" size="20" placeholder="Your name">
   <input id="example" type="textt" name="Ntext" size="50" placeholder="Your comment">
