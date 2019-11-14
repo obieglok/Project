@@ -137,3 +137,10 @@ input[type=submit]:hover {
 .textbig {
   font-size: 25px;
 }
+#beanhivepic {
+  width: 750;
+  height:400;
+}
+#direction {
+  font-size: 20px;
+}
