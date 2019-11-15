@@ -102,6 +102,7 @@ input[type=submit]:hover {
   }
 }
 #aboutus {
+  font-family: times;
   font-size: 20px;
 }
 #mission {
@@ -139,6 +140,7 @@ input[type=submit]:hover {
 }
 .textbig {
   font-size: 25px;
+  font-family: georgia;
 }
 #beanhivepic {
    padding:5px;
@@ -162,3 +164,24 @@ input[type=submit]:hover {
   border:5px solid #7a3b2e;
   background-color:#7a3b2e;
 }
+#coffeeart {
+  width:300;
+  height:300;
+  padding:5px;
+  border:5px solid #7a3b2e;
+  background-color:#7a3b2e;
+}
+#social-buttons2 button {
+  background: #4868ac;
+  border-color: #314776;
+}
+#social-button3 button {
+  background: #00acee;
+  border-color: #009ad5;
+}
+.text-center {
+  font-family: georgia;
+}
+.p  {
+      font-family: times;
+    }
