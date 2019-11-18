@@ -74,21 +74,22 @@
 <!--interactive map -->
 <br>
 <br>
+<div class="container">
     <div id="interactiveMap">
       <div class="row">
-        <div class="col-sm-3" class="center">
+        <div class="col-sm-3" class="center" id="mapButtons">
+
+            <br>
+            <button onclick="document.getElementById('map').src='mapImages/Beanhive.png'"class='btn btn-lg' >Beanhive</button>
             <br>
             <br>
-            <button onclick="document.getElementById('map').src='mapImages/Beanhive.png' "class='btn btn-lg' >Beanhive</button>
-            <br>
-            <br>
-            <button onclick="document.getElementById('map').src='mapImages/ShoeLaneCoffee.png'" class='btn btn-lg' >Shoe Lane Coffee</button>
+            <button  onclick="document.getElementById('map').src='mapImages/ShoeLaneCoffee.png'" class='btn btn-lg' >Shoe Lane Coffee</button>
             <br>
             <br>
             <button onclick="document.getElementById('map').src='mapImages/DegreeCoffeeRoasters.png' " class='btn btn-lg'>9th Degree Coffee</button>
             <br>
             <br>
-            <button onclick="document.getElementById('map').src='mapImages/ClementPekoe.png'" class='btn btn-lg'>Clement Pekoe</button>
+            <button  onclick="document.getElementById('map').src='mapImages/ClementPekoe.png'" class='btn btn-lg'>Clement Pekoe</button>
             <br>
             <br>
             <button onclick="document.getElementById('map').src='mapImages/ArtOfCoffee.png'" class='btn btn-lg'>ArtOfCoffee</button>
@@ -98,8 +99,7 @@
       <br>
       <img id="map" src="mapImages/0Plain.png" class="center">
     </div>
-    <div class="col-sm-3" class="center">
-      <br>
+    <div class="col-sm-3" class="center" id="mapButtons">
       <br>
       <button onclick="document.getElementById('map').src='mapImages/TheAtriumLounge.png'" class='btn btn-lg'>The Atrium Lounge</button>
       <br>
@@ -120,7 +120,15 @@
 
     <!-- interactive map ends-->
     <div id="maptext">
-<p> Click on a cafe for directions </p>
+    <p> Click on a cafe for directions </p>
+    <br>
+    </div>
+  </div>
+  <div id="mission" class="text-center">
+    <div class='container'>
+      <br>
+    <p class="lead">© Java & Coffee</p>
+  </div>
 </div>
     </body>
 

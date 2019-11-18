@@ -1,5 +1,7 @@
 body {
   padding-top: 60px;
+  padding-left: 0;
+  left:0;
   background-color: #BF9E87;
   background-image: url("https://transparenttextures.com/patterns/white-diamond.png");
     text-align: center;
@@ -9,7 +11,8 @@ h1{
 }
 
 .body{
-
+  padding-left: 0;
+  left:0;
   text-align: center;
 
 }
@@ -109,6 +112,11 @@ input[type=submit]:hover {
 #mission {
   background: rgba(32, 35, 41,0.9);
   color: #ddd;
+  width : 100%;
+  margin: 0;
+  left:0;
+  padding:0;
+
 }
 .btn-twitter {
   background: #00acee;
@@ -189,4 +197,7 @@ input[type=submit]:hover {
 #maptext {
   font-size: 30px;
   font-family: georgia;
+}
+#mapButtons button{
+  background:  	#A0522D;
 }
