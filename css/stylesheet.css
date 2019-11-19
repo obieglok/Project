@@ -121,6 +121,7 @@ input[type=submit]:hover {
 .btn-twitter {
   background: #00acee;
   border-color: #009ad5;
+  color:white;
 }
 .btn-facebook {
   background: #4868ac;
