@@ -192,8 +192,9 @@ input[type=submit]:hover {
 .text-center {
   font-family: georgia;
 }
-.p  {
+.pie  {
       font-family: times;
+      font-size: 50px;
     }
 #maptext {
   font-size: 30px;
